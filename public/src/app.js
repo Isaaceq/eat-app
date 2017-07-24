@@ -8,9 +8,9 @@ function configure(UIRouterMetatagsProvider) {
   UIRouterMetatagsProvider
     .setTitlePrefix('')
     .setTitleSuffix('')
-    .setDefaultTitle('Colony West')
-    .setDefaultDescription('Getting the right coverages is about more than avoiding risk, it’s about building a strong and resilient business.')
-    .setDefaultKeywords('Colony West Insurance')
+    .setDefaultTitle('Eat App')
+    .setDefaultDescription("Cooking made easy.  You choose the recipe - we deliver the ingredients.  It's that simple")
+    .setDefaultKeywords('Recipes, delivery, ingredients, allergies')
     .setStaticProperties({})
     .setOGURL(true);
 }
@@ -29,8 +29,8 @@ app.config(function($stateProvider, $urlRouterProvider) {
       templateUrl: "./src/views/home.html",
       controller: "homeController",
       metaTags: {
-        title: "Colony West",
-        description: "Getting the."
+        title: "Eat App",
+        description: ""
       }
     })
 })
